@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+.snow {
+    background-color: aliceblue;
+    position: fixed;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    /* animation: fall linear;
+    animation-duration: 6s; */
+    z-index: 1000;
+}
+
+@keyframes fall {
+    0% {
+        opacity: 1;
+        top: 0;
+    }
+    99% {
+        opacity: 1;
+        top: 100vh;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Caprasimo', cursive;
+    /* overflow: hidden; */
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+
+header {
+    width: 100%;
+    height: 5vw;
+    border-radius: 0.7rem;
+    background: linear-gradient(rgb(54, 35, 35),rgb(0, 0, 0));
+}
+header ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header ul li a{
+    font-size: 2rem;
+    font-weight: 500;
+    background: linear-gradient(45deg, #ffffff, #926eb3); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
+
+.monitor {
+    width: auto;
+    height: 25vw;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+}
+.monitor-wapper  {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+}
+.monitor-wapper-wapper{
+    width: 95%;
+    height: 95%;
+}
+.monitor-code {
+    width: auto;
+    height: auto;
+}
+.monitor-code p, span{
+    font-size: 2.0rem;
+}
+.keybord {
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.hhkb-top {
+    width: 30%;
+    height: 10%;
+    background-color: rgb(171, 173, 173);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 1rem; */
+    /* position: relative; */
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+.hhkb-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.keybord1{
+    width: 95%;
+    height: 30%;
+}
+
+.keybord1 ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(134, 135, 135);
+    /* background-color: rgb(255, 255, 255); */
+
+}
+.keybord1 ul li {
+    width: auto;
+    height: auto;
+    padding-left: 1.7rem;
+    padding-right: 1.3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(171, 173, 173);
+}
+.keybord1-div {
+    width: auto;
+    height: auto;
+    padding-left: 0.1rem;
+    padding-right: 2.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.4rem;
+    background-color: rgb(191, 194, 194);
+}
+.keybord1 ul li a {
+    font-size: 2rem;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+.keybord1-h {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.keybord1-h h1 {
+    width: auto;
+    height: auto;
+    font-size: 7rem;
+    text-shadow: 0.4rem 0.4rem 4px white;
+ 
+    animation-name: fadeInAnime;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes fadeInAnime {
+    0%{
+        transform: rotate3d(0, 1, 0, 0deg);
+      }
+    
+    5%{
+        transform: rotate3d(0, 1, 0, 180deg);
+      }
+    60%{
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    65%{
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    }
+
+
+
+
+
+.blinking-cursor {
+  display: inline-block;
+  width: 8px;
+  color: white;
+  background-color: black;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+.keybord1-div.pressed {
+    transform: translateY(2px);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+    transition: all 0.1s ease;
+}
+
+
+.pressed {
+    transform: translateY(5px);
+    box-shadow: inset 0 5px 7px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease;
+}
