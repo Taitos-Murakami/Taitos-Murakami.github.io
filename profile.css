@@ -1,0 +1,453 @@
+.pro-sec {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(54, 35, 35),rgb(0, 0, 0));
+}
+
+
+.pro-sec-title {
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.pro-sec-title h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    background: linear-gradient(45deg, #a08989, #926eb3); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
+.pro-sec-garas {
+    width: 77%;
+    height: 40vh;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#ffffffcb,rgba(118, 136, 136, 0.856));
+}
+.garas-apper {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    /* background-color: brown; */
+}
+.garas-apper h2 {
+    width: auto;
+    height: auto;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+.garas-apper h3 {
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+
+.garas-bottom {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aliceblue; */
+}
+.bottom-0 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.bottom-1 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.bottom-2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.bottom-0-wapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-1-wapper,
+.bottom-2-wapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.bottom-0-wapper img {
+    width: auto;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.bottom-1-wapper p {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+.bottom-2-wapper p{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.pro-sec-garas2 {
+    width: 77%;
+    height: 50vh;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#ffffffcb,rgba(118, 136, 136, 0.856));
+}
+.bottom-3 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+.bottom-3-wapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-3-wapper img {
+    width: auto;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.bottom-4 {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+
+.bottom-4-wapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.bottom-4-wapper p{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.hobby-sec {
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.hobby-title {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/redwing.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+.hobby-title h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #ffffff, #ffffff); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
+
+.football,
+.bike {
+    width: 100%;
+    height: 45%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+
+.football-title,
+.bike-title {
+    width: 100%;
+    height: 12%;
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(45deg, #474646, #332727); /* お好みで色を変更 */
+}
+
+.football-title h1,
+.bike-title h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    rotate: -10deg;
+    background: linear-gradient(45deg, #a08989, #db2f4e); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+    /* background-color: rgb(92, 63, 25); */
+}
+
+
+.football-main,
+.bike-main {
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.football-main {
+    background-image: url(./img/iai.png);
+    background-position: center;
+}
+.bike-main {
+    background-image: url(./img/bike3.JPG);
+    background-position: center;
+    background-size:cover;
+
+}
+.main-text {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main-text-p-wapper {
+  width: 77%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(80, 80, 80, 0.883); */
+}
+.main-text p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(17, 232, 243, 0.3); /* ← これが影 */
+}
+
+.main-picture {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: brown; */
+}
+.main-picture img {
+    height: 100%;
+}
+
+
+
+.ball {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  animation: roll 7s linear infinite alternate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform-origin: center center;
+}
+
+/* 共通の五角形スタイル */
+.pentagon {
+  width: 37%;
+  height: 37%;
+  background: black;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  position: absolute;
+}
+
+.p1 { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.p2 { top: 0%; left: 50%; transform: translateX(-50%); }
+.p3 { bottom: 0%; left: 50%; transform: translateX(-50%); }
+.p4 { left: 0%; top: 50%; transform: translateY(-50%); }
+.p5 { right: 0%; top: 50%; transform: translateY(-50%); }
+
+@keyframes roll {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(90vw) rotate(2720deg); /* 2回転（適宜調整可能） */
+  }
+}
+
+
+
+
+
+.bike-icon {
+  position: absolute;
+  width: 160px;
+  height: 80px;
+  animation: moveAndFlip 17s linear infinite;
+  transform-origin: center center;
+}
+
+/* 共通のホイールスタイル */
+.front-wheel, .back-wheel {
+  width: 24px;
+  height: 24px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.front-wheel {
+  left: 0;
+}
+
+.back-wheel {
+  right: 27px;
+}
+
+/* 長めのフロントフォーク（前輪からハンドルへ） */
+.fork {
+  width: 3px;
+  height: 50px;
+  background: silver;
+  position: absolute;
+  top: 30px;
+  left: 50px; /* front-wheel と body の間を繋ぐ */
+  transform: rotate(45deg);
+  transform-origin: top left;
+  z-index: 1;
+}
+
+/* ハンドルバー（フォークの上につける） */
+.handlebar {
+  width: 20px;
+  height: 7px;
+  background: #444;
+  position: absolute;
+  top: 30px;
+  left: 28px;
+  border-radius: 2px;
+}
+
+/* ボディ */
+.body {
+  position: absolute;
+  width: 77px;
+  height: 6px;
+  background: #222;
+  top: 40px;
+  left: 45px;
+  transform: rotate(20deg);
+  border-radius: 2px;
+}
+
+/* シート */
+.seat {
+  position: absolute;
+  width: 20px;
+  height: 7px;
+  background: #555;
+  top: 40px;
+  right: 55px;
+  border-radius: 2px;
+}
+
+
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(90vw);
+  }
+}
+
+@keyframes moveAndFlip {
+  0% {
+    transform: translateX(0) scaleX(-1);
+  }
+  49.9% {
+    transform: translateX(90vw) scaleX(-1);
+  }
+  50% {
+    transform: translateX(90vw) scaleX(1); /* 方向反転 */
+  }
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+}

@@ -1,0 +1,155 @@
+.acheve-sec {
+    width: 100%;
+    height: 450vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(54, 35, 35),rgb(0, 0, 0));
+}
+
+.web,
+.flutter,
+.ai {
+    width: 100%;
+    height: 25%;
+    border: solid 3px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.acheve-title {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1rem solid #ffffff; */
+    /* background-color: aliceblue; */
+}
+/* .acheve-title h1 {
+    font-size: 3.7rem;
+    font-weight: 500;
+    color: aliceblue;
+} */
+
+.acheve-title h1 {
+    font-size: 3.7rem;
+    font-weight: 500;
+    background: linear-gradient(45deg, #ffffff, #926eb3); /* お好みで色を変更 */
+    /* background: linear-gradient(45deg, #00BFFF, #8A2BE2); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
+
+.acheve-main {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.acheve-main .slick {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acheve-main .slick-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.acheve-main .slick video {
+    max-width: 50%;
+    max-height: 100%;
+}
+.acheve-main .slick img {
+    max-width: 50%;
+    max-height: 100%;
+}
+.acheve-main .slick iframe {
+    width: 50%;
+    height: 100%;
+}
+.acheve-main .slick-1 iframe {
+    width: 100%;
+    height: 50%;
+}
+
+.acheve-disc {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disc-1 {
+    width: 50%;
+    height: 100%;
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disc-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.disc-1 p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    /* color: aliceblue; */
+    background: linear-gradient(45deg, #ffffff, #926eb3); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
+
+.disc-2-h-wapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disc-2-h-wapper h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    background: linear-gradient(45deg, #ffffff, #926eb3); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
+.disc-2-p-wapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disc-2-h-wapper p,
+.disc-2-p-wapper p {
+    font-size: 1.5rem;
+    font-weight: 200;
+     background: linear-gradient(45deg, #ffffff, #926eb3); /* お好みで色を変更 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+}
